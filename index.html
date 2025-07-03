@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FOT Trader - Friends of Trends</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: url('https://img.freepik.com/vetores-premium/forex-trading-background_23-2148588125.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #ffffff;
+    }
+
+    header {
+      background-color: rgba(22, 27, 34, 0.9);
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 50px;
+      border-radius: 8px;
+      margin-right: 10px;
+    }
+
+    .logo span {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #58a6ff;
+    }
+
+    nav a {
+      color: #c9d1d9;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #58a6ff;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: rgba(13, 17, 23, 0.7);
+    }
+
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+      color: #58a6ff;
+    }
+
+    .hero p {
+      font-size: 1rem;
+      color: #c9d1d9;
+    }
+
+    section {
+      padding: 2.5rem 1.5rem;
+      background-color: rgba(22, 27, 34, 0.85);
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #58a6ff;
+    }
+
+    .video-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .video-row iframe {
+      width: 100%;
+      max-width: 350px;
+      height: 200px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    .social-buttons {
+      text-align: center;
+      margin-top: 1.5rem;
+    }
+
+    .social-buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.7rem 1.2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      background-color: #238636;
+    }
+
+    .social-buttons a.instagram {
+      background-color: #d62976;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background-color: rgba(13, 17, 23, 0.9);
+      font-size: 0.85rem;
+      color: #8b949e;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.5rem;
+      }
+
+      .section-title {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://yt3.googleusercontent.com/E-wmyeMMuBiCPR3NlxDrDSAAWzUXBguPJGDiROmkfVsQuDfHktaIFafA4_GEmZlbwDLbqSihhw=s160-c-k-c0x00ffffff-no-rj" alt="FOT Logo">
+      <span>FOT Trader</span>
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#videos">Videos</a>
+      <a href="#links">Links</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Friends of Trends</h2>
+    <p>FOT Trader – Helping you build consistency and confidence in trading.</p>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About FOT Trader</h2>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      FOT Trader shares practical trading knowledge through honest content on YouTube. Whether you're a beginner or looking to scale your strategies, FOT helps you trade with discipline and structure.
+    </p>
+  </section>
+
+  <section id="videos">
+    <h2 class="section-title">Latest Videos</h2>
+    <div class="video-row">
+      <iframe src="https://www.youtube.com/embed/UPTQlagZmKc" title="Video 1" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/rn1ZyogK6Rk" title="Video 2" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="links">
+    <h2 class="section-title">Connect with FOT</h2>
+    <div class="social-buttons">
+      <a href="https://www.youtube.com/feed/subscriptions/UCmYaDjYwTjZhf41kk0s9oFw" target="_blank">YouTube</a>
+      <a href="https://www.instagram.com/friends_of_trends_?utm_source=ig_web_button_share_sheet&igsh=MWJzMXFmZGR6c25qaw==" target="_blank" class="instagram">Instagram</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 FOT Trader – Friends of Trends. All rights reserved.
+  </footer>
+
+</body>
+</html>
